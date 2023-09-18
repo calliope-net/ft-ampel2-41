@@ -1,10 +1,10 @@
 input.onButtonEvent(Button.A, input.buttonEventClick(), function () {
     basic.pause(2000)
-    Ampelsteuerung(0, 0, 1)
+    Ampel3(0, 0, 1)
     basic.pause(7000)
-    Ampelsteuerung(1, 0, 0)
+    Ampel3(1, 0, 0)
 })
-function Ampelsteuerung (Rot: number, Gelb: number, Grün: number) {
+function Ampel3 (Rot: number, Gelb: number, Grün: number) {
     pins.digitalWritePin(DigitalPin.P0, Rot)
     pins.digitalWritePin(DigitalPin.P1, Gelb)
     pins.digitalWritePin(DigitalPin.P2, Grün)
@@ -20,9 +20,9 @@ function Ampelsteuerung (Rot: number, Gelb: number, Grün: number) {
 }
 input.onPinTouchEvent(TouchPin.P3, input.buttonEventDown(), function () {
     basic.pause(2000)
-    Ampelsteuerung(0, 0, 1)
+    Ampel3(0, 0, 1)
     basic.pause(7000)
-    Ampelsteuerung(1, 0, 0)
+    Ampel3(1, 0, 0)
 })
 basic.showString("Ampel2")
-Ampelsteuerung(1, 1, 1)
+Ampel3(1, 1, 1)
