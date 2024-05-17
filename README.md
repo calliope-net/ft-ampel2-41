@@ -1,5 +1,5 @@
 
-> Diese Seite bei [https://calliope-net.github.io/ft-ampel2-41/](https://calliope-net.github.io/ft-ampel2/) öffnen
+> Diese Seite bei [https://calliope-net.github.io/ft-ampel2-41/](https://calliope-net.github.io/ft-ampel2-41/) öffnen
 
 ## Dieses Projekt bearbeiten ![Build status badge](https://github.com/calliope-net/ft-ampel2-41/workflows/MakeCode/badge.svg)
 
